@@ -1,0 +1,8 @@
+print(type(10))
+print(type(3.14))
+print(type(1 + 3j))
+print(type('Tosan'))
+print(type([1,2,3]))
+print(type({'name': 'Tosan'}))
+print(type({9.3, 2.5, 1.7}))
+print(type((9.6, 2.3, 5.7)))
