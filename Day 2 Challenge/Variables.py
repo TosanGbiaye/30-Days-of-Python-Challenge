@@ -1,8 +1,8 @@
 print("30 Days of Python Programming")
-firstName = "Tosan"
-lastName = "Gbiaye"
-fullName = firstName + ' ' + lastName
-print(fullName)
+first_name = "Tosan"
+last_name = "Gbiaye"
+full_name = first_name + ' ' + last_name
+print(full_name)
 country = "Nigeria"
 city = "Lagos"
 print(city, country)
