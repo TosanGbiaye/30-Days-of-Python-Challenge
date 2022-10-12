@@ -20,5 +20,14 @@ c = int(input("Enter side c: "))
 perimeter_of_triangle = a + b + c
 print("Perimeter: ",perimeter_of_triangle)
 
+# Get length and width of a rectangle using prompt. Calculate its area
+# (area = length x width) and perimeter (perimeter = 2 x (length + width))
+length = int(input("Input Length: "))
+width = int(input("Input width: "))
+area = length * width
+perimeter = 2 * (length + width)
+print("Area:", area)
+print("Perimeter: ",perimeter)
+
 
       
