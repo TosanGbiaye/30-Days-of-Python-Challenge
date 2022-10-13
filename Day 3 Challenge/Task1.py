@@ -20,7 +20,7 @@ c = int(input("Enter side c: "))
 perimeter_of_triangle = a + b + c
 print("Perimeter: ",perimeter_of_triangle)
 
-# Get length and width of a rectangle using prompt. Calculate its area
+# 6. Get length and width of a rectangle using prompt. Calculate its area
 # (area = length x width) and perimeter (perimeter = 2 x (length + width))
 length = int(input("Input Length: "))
 width = int(input("Input width: "))
@@ -28,6 +28,20 @@ area = length * width
 perimeter = 2 * (length + width)
 print("Area:", area)
 print("Perimeter: ",perimeter)
+
+# 12. Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+print(len("python"))
+print(len("dragon"))
+print(len("python") > len("dragon"))
+
+# 13 Use and operator to check if 'on' is found in both 'python' and 'dragon'
+print('on in Python:', 'on' in 'python')
+print('on in dragon:','on' in 'dragon')
+print('on in python and dragon: ','on' in 'python' and 'on' in 'dragon')
+
+# 14. I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+print('jargon' in 'I hope this course is not full of jargon')
+# 16. Find the length of the text python and convert the value to float and convert it to string
 
 
       
